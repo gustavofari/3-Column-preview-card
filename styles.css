@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+:root {
+    --bright: hsl(31, 77%, 52%);
+    --Dark: hsl(184, 100%, 22%);
+    --Very-dark-cyan: hsl(179, 100%, 13%);
+  }
+  
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 15px;
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.container{
+    display: flex;
+    height: 60vh;
+    width: 53vw;
+    
+}
+
+.cars{
+    padding: 2rem;
+    color: #fff;   
+}
+
+.cars img, h1 ,p{
+   margin-bottom: 15%;
+}
+
+.cars h1{
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+}
+
+.cars p{
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.sedans{
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    background-color: var(--bright);
+}
+
+.suvs{
+    background: hsl(184, 100%, 22%);
+}
+
+.luxury{
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    background: hsl(179, 100%, 13%);
+}
+
+
+button{
+    margin-top: 20%;
+    border: none;
+    background: hsl(0, 0%, 95%);
+    border-radius: 25px;
+    width: 70%;
+    padding: 10px;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn-sedan{
+    color: var(--bright);
+}
+
+.btn-suvs{
+    color: var(--Dark);
+}
+
+.btn-luxury{
+    color: var(--Very-dark-cyan);
+}
+
